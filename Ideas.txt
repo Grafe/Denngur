@@ -2,8 +2,7 @@ Denngur
 -Anmelden
 -Bilder hochladen Angemeldet oder nicht angemeldet, Private Bilder nur nach Anmeldung möglich
 -Bilder in Gallerie bearbeiten (Anmeldung)
--Bilder Kommentieren (Anmeldung)
--Auf Startseite neusten Private Bilder anzeigen, bei Album nur erstes Bild *thumbnail festlegen können*
-*Bilder Bewerten (Anmeldung)*
+-Auf Startseite neusten Private Bilder anzeigen, bei Album nur erstes Bild
 -Bei Profil eigene Bilder anschauen
 -Bei Klick auf Bild Seite mit nur Bild anzeigen
+-Slideshow von Bildern wird bei Alben automatisch erstellt
