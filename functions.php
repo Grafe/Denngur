@@ -1,0 +1,30 @@
+<?php
+
+	function dbConnect($DBName)
+	{
+		$DBServer = 'localhost';
+		$DBUser = 'root';
+		$DBPass = '';
+		
+		$mysqli = new mysqli($DBServer, $DBUser, $DBPass, $DBName);	
+		if (mysqli_connect_errno()) {
+			printf("Connect failed: %s\n", mysqli_connect_error());
+			exit();
+		}
+		return $mysqli;
+	}
+	
+	function dbRegisterwrite($username, $mail, $encrpw)
+	{
+		$DBName = "denngur";
+		$mysqli = dbConnect($DBName);
+		$stmt = $mysqli->prepare("INSERT INTO user (`username`, `password`, `mail`) VALUES (?, ?, ?)");
+		if ( !$stmt ) {
+			printf('errno: %d, error: %s', $mysqli->errno, $mysqli->error);
+				die;
+		}	
+		$stmt->bind_param('sss', $username, $encrpw, $mail);
+		$result = $stmt->execute();
+
+	}	
+?>

@@ -1,9 +1,0 @@
-Bilderhostseite Denngur
-Es wird eine Seite erstellt auf der man Bilder hochladen kann. Man sollte sich einloggen können, dementsprechend auch einen Account erstellen. 
-Auf der Startseite werden die am neusten hochgeladenen öffentlichen Bilder angezeigt.
-Die Bilder können einzeln oder in Alben hochgeladen werden. Will man Alben erstellen muss man angemeldet sein. Einzelne Bilder können ohne Anmeldung hochgeladen werden, aber mit dem Tipp, dass man, wenn der Link zum Bild verliert, das Bild verlieren könnte.
-Bei Anmeldung kann man Bilder als privat angeben, das heisst sie werden nicht auf der Startseite gezeigt, sie können trotzdem via Link geteilt werden.
-Wenn man auf ein Bild klick linkt es automatisch zu einer Seite auf der nur das Bild angezeigt.
-Auf dem Profil des Benutzers werden alle öffentlich hochgeladene Bilder von einem Benutzer angeteigt.
-Von einem Album kann automatisch eine Slideshow erstellt werden, die alle Bilder nacheinander durchgeht.
-Für die Realisierung wird HTML5, PhP, MySQL, CSS und evtl. für die Slideshow eine andere scripting Sprache (muss noch recherchiert werden) benutzt.
