@@ -8,9 +8,8 @@
 	if($username != '' AND $mail != '' AND $password != '')
 	{
 		dbRegisterwrite($username, $mail, $encrpw);
-		echo "Danke f&uumlr ihre Registrierung :) \o/";
 	}
-	
+
 	else
 	{
 		echo "Bitte f&uumlllen Sie alle Felder aus.";
