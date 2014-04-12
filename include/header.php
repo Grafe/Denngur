@@ -1,11 +1,21 @@
 <?php
 	include 'functions.php';
-	SESSION_Start();
+	SESSION_START();
+	
+	if(isset($_POST["logout"]))
+	{
+		session_destroy();
+		
+	}
 	if(isset($_SESSION["userid"]))
 	{
 		$name = $_SESSION['username'];
 		echo "Wilkommen $name";
-		
+		$url = $_SERVER['REQUEST_URI'];
+		echo "<form action='$url' autocomplete='on' method='post'>";
+		echo "<input type='hidden' name='logout' value='1'/> ";
+		echo "<input type='submit' value='Logout'>";
+		echo "</form>";
 	}
 	else
 	{
@@ -15,8 +25,7 @@
 			$value = CheckLogin($username, $password);
 				if($value == 1)
 				{
-					$name = $_SESSION['username'];
-					echo "Wilkommen $name";
+					
 				}
 				else
 				{

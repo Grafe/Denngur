@@ -65,7 +65,10 @@
 	}
 	
 	
-	
+	function logout()
+	{
+		
+	}
 	
 	
 	
