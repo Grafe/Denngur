@@ -1,5 +1,17 @@
+<html>
+<head>
+ <?php
+	include 'include/header.php';
+ ?>
+</head>
+<body>
+	<?php include 'include/upper_header.php';?>
+	<div id="wrapper">
+			<div id="menu">
+				 <?php include 'include/menu.php';?>
+			</div>
+		<div id="content">
 <?php
-	include 'functions.php';
 	$username = $_POST["username"];
 	$mail = $_POST["mail"];
 	$password = $_POST["password"];
@@ -15,3 +27,7 @@
 		echo "Bitte f&uumlllen Sie alle Felder aus.";
 	}
 ?>
+		</div>
+	</div>
+</body>
+</html>

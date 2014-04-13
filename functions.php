@@ -38,7 +38,7 @@
 			}	
 			$stmt->bind_param('sss', $username, $encrpw, $mail);
 			$result = $stmt->execute();
-			echo "Danke f&uumlr ihre Registrierung :) \o/";
+			echo "Danke f&uumlr ihre Registrierung!";
 		}
 		mysqli_close($mysqli);
 	}	

@@ -1,0 +1,64 @@
+input[type=submit]{
+font-size: 62.5%;
+}
+
+#upper_header{
+	width: 100%;
+	height: 30px;
+	background: -webkit-linear-gradient(black, gray); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(black, gray); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(black, gray); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#373737, #121212); /* Standard syntax */
+	color: white;
+	padding: 5px;
+	box-shadow: 0px 0px 5px black;
+	margin-bottom: 20px;
+
+}
+#upper_header form{
+	display: inline;
+}
+
+body{
+	margin: 0px;
+	background-color: #B24926;
+}
+
+#wrapper{
+	width: 960px;
+	margin: auto;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px black;
+}
+
+#menu{
+	border-radius: 10px 10px 0px 0px;
+	width: 100%;
+	height: 50px;
+	background-color: #A84523;
+	margin: 0;
+}
+#nav{
+	
+}
+a:link {
+	color: white;
+	margin: 10;
+	float: left;
+	text-decoration:none;
+	padding: 5px;
+}
+
+a:visited {
+	color: white;
+	text-decoration:none;
+}
+
+a:hover {
+	box-shadow: 0px 0px 5px black;
+} 
+
+#content{
+	padding: 10px;
+}
