@@ -11,7 +11,7 @@
 			 <?php include 'include/menu.php';?>
 		</div>
 		<div id="content">
-			Hi
+			
 		</div>
 	</div>
 </body>

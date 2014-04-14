@@ -11,7 +11,7 @@
 				 <?php include 'include/menu.php';?>
 			</div>
 		<div id="content">
-			Laden Sie hier ein Bild hoch:
+			Bild uploaden
 		</div>
 	</div>
 </body>
