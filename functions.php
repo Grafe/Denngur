@@ -2,8 +2,8 @@
 	function dbConnect()
 	{
 		$DBServer = 'localhost';
-		$DBUser = 'root';
-		$DBPass = '';
+		$DBUser = 'denngur';
+		$DBPass = 'GnVXYRC7jnvBAsYq';
 		$DBName = "denngur";
 		
 		$mysqli = new mysqli($DBServer, $DBUser, $DBPass, $DBName);	
@@ -63,7 +63,7 @@
 		return "0";
 	}
 	
-	function logout()
+	function UploadImage()
 	{
 		
 	}
