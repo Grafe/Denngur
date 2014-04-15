@@ -48,6 +48,7 @@
 		}
 	}
 ?>
+  <div style="clear: both;"></div>
 </div>
 <div id="logo">
 	<img src="img/logo.png" />
