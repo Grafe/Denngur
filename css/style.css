@@ -12,7 +12,6 @@ input[type=submit]{
 	color: white;
 	padding: 5px;
 	box-shadow: 0px 0px 5px black;
-	margin-bottom: 20px;
 }
 
 #upper_header form{
@@ -70,6 +69,15 @@ a:hover {
 	padding: 10px;
 }
 
+#logo{
+	width: 960px;
+	margin: 20px auto;
+}
+
+#logo img{
+	height: 100px;
+}
+
 /*-------------------------
 	Dropbox Element
 --------------------------*/
@@ -78,7 +86,7 @@ a:hover {
 	background:url('filedrop/background_tile_3.jpg');	
 	border-radius:3px;
 	position: relative;
-	margin:80px auto 90px;
+	margin: auto;
 	min-height: 290px;
 	overflow: hidden;
 	padding-bottom: 40px;	
