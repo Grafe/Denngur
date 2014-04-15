@@ -1,12 +1,10 @@
 <?php
-
 	function dbConnect()
 	{
 		$DBServer = 'localhost';
 		$DBUser = 'root';
 		$DBPass = '';
 		$DBName = "denngur";
-
 		
 		$mysqli = new mysqli($DBServer, $DBUser, $DBPass, $DBName);	
 		if (mysqli_connect_errno()) {
@@ -24,6 +22,7 @@
 		$stmt->bind_param('s', $username);
 		$stmt->execute();
 		$stmt->store_result();
+    
 		if($stmt->num_rows >=1)
 		{
 			echo"Der Name ist bereits in Verwendung!";
@@ -34,7 +33,7 @@
 			$stmt = $mysqli->prepare("INSERT INTO user (`username`, `password`, `mail`) VALUES (?, ?, ?)");
 			if ( !$stmt ) {
 				printf('errno: %d, error: %s', $mysqli->errno, $mysqli->error);
-					die;
+        		die;
 			}	
 			$stmt->bind_param('sss', $username, $encrpw, $mail);
 			$result = $stmt->execute();
@@ -64,31 +63,9 @@
 		return "0";
 	}
 	
-	
 	function logout()
 	{
 		
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 ?>
  
