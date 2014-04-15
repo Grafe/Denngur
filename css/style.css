@@ -45,10 +45,8 @@ body{
 	background-color: #A84523;
 	margin: 0;
 }
-#nav{
-	
-}
-a:link {
+
+#menu a:link {
 	color: white;
 	margin: 10;
 	float: left;
@@ -56,12 +54,12 @@ a:link {
 	padding: 5px;
 }
 
-a:visited {
+#menu a:visited {
 	color: white;
 	text-decoration:none;
 }
 
-a:hover {
+#menu a:hover {
 	box-shadow: 0px 0px 5px black;
 } 
 
