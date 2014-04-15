@@ -1,7 +1,7 @@
-1. Einzelnes Bild hochladen -> Dateiname in DB = bildID+endung, falls agemeldet mit userID speichern.
-2 Album hochladen -> Dateiname, Bilder mit albumID, Album mit userID etc.. speichern. Alben können nicht privat sein.
-3. Neuste Bilder auf Startseite anzeigen (20 mit höchster ID, nicht private Bilder, Bild nur als thumbnail) Auf Bild klicken auf Startseite -> 
-4. Seite mit originalem Bild, Infos über Bild (Besitzer (Link zu Benutzerprofil) und Bildgrösse) nochmal auf Bild klicken -> 
+1. Einzelnes Bild hochladen -> Dateiname in DB = bildID+endung, falls agemeldet mit userID speichern.in. db. noch.boolean. private. einfÃ¼gen
+2 Album hochladen -> Dateiname, Bilder mit albumID, Album mit userID etc.. speichern. Alben kï¿½nnen nicht privat sein.
+3. Neuste Bilder auf Startseite anzeigen (20 mit hï¿½chster ID, nicht private Bilder, Bild nur als thumbnail) Auf Bild klicken auf Startseite -> 
+4. Seite mit originalem Bild, Infos ï¿½ber Bild (Besitzer (Link zu Benutzerprofil) und Bildgrï¿½sse) nochmal auf Bild klicken -> 
 6. Seite mit nur Bild
 7. Profil: Zeigt alle Bilder (Thumbnail, linken zu 4.) von User an die nicht privat sind und Link zu Alben.
 8. Album zeigt alle Bilder an (Thumbnail, linken zu 4.) mit button Slideshow starten.
